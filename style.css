@@ -1,0 +1,23 @@
+*,
+*::before,
+*::after {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#grid-container {
+    height: 960px;
+    width: 960px;
+}
+
+.row {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.cell {
+    border: 1px solid black;
+    flex: 1 1 auto;
+    
+}
